@@ -1,0 +1,25 @@
+{
+  "name": "ikun-front",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@videojs-player/vue": "^1.0.0",
+    "axios": "^0.27.2",
+    "element-plus": "^2.2.16",
+    "video.js": "^7.20.2",
+    "vue": "^3.2.37",
+    "vue-axios": "^3.4.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vue-tsc": "^0.40.4"
+  }
+}
